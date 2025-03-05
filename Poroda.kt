@@ -1,5 +1,7 @@
-class Poroda(_name : String, var porod : String):Dog(_name){
+class Poroda(_name: String, var porod: String) : Dog(_name) {
+    var okras: String = ""
+
     override fun Info_dog() {
-        println ("кличка собаки: $name, порода собаки: $porod, окрас шерсти $okras")
+        println("Кличка собаки: $name, порода собаки: $porod, окрас шерсти: $okras")
     }
 }
